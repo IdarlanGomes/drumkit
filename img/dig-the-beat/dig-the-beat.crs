@@ -1,0 +1,24 @@
+﻿[AppStarting]
+Path=drum kit of fire.ani
+
+[Crosshair]
+Path=drum sticks cross hair.cur
+
+[SizeAll]
+Path=drum stick moves.cur
+
+[Wait]
+Path=steal your face cursor a la greatful dead.ani
+
+[Arrow]
+Path=drum kit cursor for the right handed user.ani
+
+[UpArrow]
+Path=hand this alternate select.cur
+
+[Hand]
+Path=animated hand gestures.ani
+
+[IBeam]
+Path=text note.cur
+

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    color: yellow;
+    margin: 20vh auto;
+    font-size: calc(5vw + 20px);
+    text-shadow: 4px 4px 5px rgba(236, 22, 22, 0.801);
+
+}
+
+.container{
+  
+   width: 90vw;
+   height: 100px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   gap: 15px;
+}
+
+.key{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+    font-size: calc(3vw + 20px);
+    border: 3px solid white;
+    border-radius: 50%;
+    user-select: none;
+    cursor: url(img/drum-kit-cursor.cur), pointer;
+    transition: transform 0.2s;
+
+}
+
+.active{
+    transform: scale(1.2);
+    border-color: rgb(255, 255, 0);
+    box-shadow: 0px 0px 40px rgba(255, 0, 0, 0.801);
+}
+
+/*
+
+https://youtu.be/2qA8tlJ24uQ?list=PLDgemkIT111AzoS1rB61sgMJbsEA4pyD2&t=1227
+
+*/
